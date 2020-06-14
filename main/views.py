@@ -15,3 +15,5 @@ def login(request):
 	return render(request,'login.html')
 def register(request):
 	return render(request,'register.html')
+def donate(request):
+	return render(request,'donate.html')

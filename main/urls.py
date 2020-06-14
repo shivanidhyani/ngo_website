@@ -13,4 +13,5 @@ urlpatterns = [
     path('contact_us', views.contact, name='contact'),
     path('login_to_nsss', views.login, name='login'),
     path('register_to_nsss', views.register, name='register'),
+    path('donate_to_nsss', views.donate, name='donate'),
     ]
